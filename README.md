@@ -65,7 +65,7 @@ int main(void)
 
 ## C Program to create new process using Linux API system calls fork() and exit()
 
-
+~~~
 #include<stdlib.h>
 int main()
 { int pid; 
@@ -80,7 +80,7 @@ sleep(100);
 exit(0);} 
 }
 
-
+~~~
 
 
 
@@ -109,7 +109,7 @@ exit(0);}
 
 
 ## C Program to execute Linux system commands using Linux API system calls exec() family
-
+~~~
 #include <unistd.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -120,7 +120,7 @@ int main()
 	printf("Done.\n");
 	exit(0);
 }
-
+~~~
 
 ## OUTPUT
 
